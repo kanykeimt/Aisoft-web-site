@@ -6,7 +6,6 @@ import BrandingSection from "../components/BrandingSection/Branding";
 import ServiceSection from '../components/ServiceSection/ServiceFour';
 import DiscoverSection from '../components/DiscoverSection/DiscoverFour';
 import ServiceSection2 from '../components/ServiceSection/ServiceFour2';
-import Counter from '../components/CounterSection/Counter';
 import FeatureSection from '../components/Features/FeatureOne';
 import Work from '../components/WorkSection/Work';
 import ScreenshotSection from '../components/ScreenshotSection/ScreenshotsOne';
