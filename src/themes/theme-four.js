@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroFour';
-import FeatureSection from '../components/Features/FeatureFour';
+import FeatureSection from '../components/Features/FeatureSix';
 import ServiceSection from '../components/ServiceSection/ServiceFour';
 import DiscoverSection from '../components/DiscoverSection/DiscoverFour';
 import Work from '../components/WorkSection/Work';
@@ -14,6 +14,7 @@ import Download from '../components/DownloadSection/Download';
 import Subscribe from '../components/SubscribeSection/Subscribe';
 import ContactSection from '../components/ContactSection/Contact';
 import FooterSection from '../components/FooterSection/Footer';
+import BlogTwoColumn from '../components/Blogs/BlogTwoColumn';
 
 class ThemeFour extends Component {
     render() {
@@ -25,11 +26,12 @@ class ThemeFour extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/logo-white.png"} />
+                    <Header imageData={"/img/LogoAisoft-white.png"} />
                     <HeroSection />
+                    <BlogTwoColumn/>
+                    <FeatureSection />
                     <ServiceSection />
                     <DiscoverSection />
-                    <FeatureSection />
                     <Work />
                     <ScreenshotSection />
                     <ReviewSection />

@@ -1106,9 +1106,6 @@ img {
 }
 
 .homepage-4 .welcome-thumb > img {
-    position: relative;
-    -webkit-animation: bounceHero 3s infinite;
-    animation: bounceHero 3s infinite;
 }
 
 @-webkit-keyframes bounceHero {

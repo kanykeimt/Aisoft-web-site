@@ -1,24 +1,66 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server-1/themeOneBlogSection";
 
 class Blog extends Component {
     state = {
         data: {},
-        blogData: []
+        blogData: [
+            {
+                "id": 1,
+                "image": "/img/img/aidocPos1.png",
+                "title": "Активные документы",
+                "content": "Статистика в различных временных форматах: <br /> - в процентном формате % <br /> - в цифровом формате <br /> -  в форме диаграммы"
+              },
+              {
+                "id": 2,
+                "image": "/img/img/aidocPos2.png",
+                "title": "Процесс планирования маршрута пользователей",
+                "content": "Распределение уполномочий; <br /> Распределение пользователей; <br /> Установление порядка маршрута;"
+              },
+              {
+                "id": 3,
+                "image": "/img/img/aidocPos3.png",
+                "title": "Формирование документов по типам",
+                "content": "Пошаговая обработка документов по указанному маршруту <br /> - Ручное создание документа <br /> - Создание документа по шаблону"
+              },
+              {
+                "id": 4,
+                "image": "/img/img/aidocPos4.png",
+                "title": "Создание внутреннего документа",
+                "content": "Выбор вида документа, конфигурирование параметров даты, темы, содержания; <br /> Назначение уполномочий каждого пользователя в соответствии с их ролями и обязанностями;"
+              },
+              {
+                "id": 5,
+                "image": "/img/img/aidocPos5.png",
+                "title": "Документ в процессе обработки",
+                "content": "- Формирование документов; <br /> - Поэтапное прохождение документа по указанному маршруту; <br /> - Статусы согласования, утверждения;"
+              },
+              {
+                "id": 6,
+                "image": "/img/img/aidocPos6.png",
+                "title": "Создание документа по шаблону",
+                "content": "Пошаговое создание документа по шаблону"
+              },
+              {
+                "id": 7,
+                "image": "/img/blog-7.jpg",
+                "title": "How to grow up your business",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
+              },
+              {
+                "id": 8,
+                "image": "/img/blog-8.jpg",
+                "title": "Planing to manage your clients?",
+                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor."
+              },
+              {
+                "id": 9,
+                "image": "/img/blog-9.jpg",
+                "title": "Make your successful business with sApp",
+                "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly."
+              }
+        ]
     }
-    componentDidMount(){
-        axios.get(`${BASE_URL}`)
-            .then(res => {
-                this.setState({
-                    data: res.data,
-                    blogData: res.data.blogData
-                })
-                // console.log(this.state.data)
-            })
-        .catch(err => console.log(err))
-    }
+    
     render() {
         return (
             <div>
@@ -30,19 +72,13 @@ class Blog extends Component {
                                 <div className="single-blog res-margin">
                                     {/* Blog Thumb */}
                                     <div className="blog-thumb">
-                                        <a href="/#"><img src={item.image} alt="" /></a>
+                                    <img src={item.image} alt="" />
                                     </div>
                                     {/* Blog Content */}
                                     <div className="blog-content p-4">
-                                        {/* Meta Info */}
-                                        <ul className="meta-info d-flex justify-content-between">
-                                        <li>By <a className="text-primary" href="/#">{item.author}</a></li>
-                                        <li><a href="/#">{item.date}</a></li>
-                                        </ul>
                                         {/* Blog Title */}
-                                        <h3 className="blog-title my-3"><a href="/#">{item.title}</a></h3>
-                                        <p>{item.content}</p>
-                                        <a href="/#" className="blog-btn mt-3">{item.btnText}</a>
+                                        <h3 className="blog-title my-3">{item.title}</h3>
+                                        <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
                                     </div>
                                 </div>
                             </div>
