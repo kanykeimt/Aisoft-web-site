@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Aisoft-web-site/static/css/main.71b2c3fd.chunk.css",
+    "main.js": "/Aisoft-web-site/static/js/main.160cb105.chunk.js",
+    "main.js.map": "/Aisoft-web-site/static/js/main.160cb105.chunk.js.map",
+    "runtime-main.js": "/Aisoft-web-site/static/js/runtime-main.b3aeeae6.js",
+    "runtime-main.js.map": "/Aisoft-web-site/static/js/runtime-main.b3aeeae6.js.map",
+    "static/js/2.63b89b3b.chunk.js": "/Aisoft-web-site/static/js/2.63b89b3b.chunk.js",
+    "static/js/2.63b89b3b.chunk.js.map": "/Aisoft-web-site/static/js/2.63b89b3b.chunk.js.map",
+    "index.html": "/Aisoft-web-site/index.html",
+    "precache-manifest.2677fa33937411741ad974e02c907d2f.js": "/Aisoft-web-site/precache-manifest.2677fa33937411741ad974e02c907d2f.js",
+    "service-worker.js": "/Aisoft-web-site/service-worker.js",
+    "static/css/main.71b2c3fd.chunk.css.map": "/Aisoft-web-site/static/css/main.71b2c3fd.chunk.css.map",
+    "static/js/2.63b89b3b.chunk.js.LICENSE.txt": "/Aisoft-web-site/static/js/2.63b89b3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3aeeae6.js",
+    "static/js/2.63b89b3b.chunk.js",
+    "static/css/main.71b2c3fd.chunk.css",
+    "static/js/main.160cb105.chunk.js"
+  ]
+}
