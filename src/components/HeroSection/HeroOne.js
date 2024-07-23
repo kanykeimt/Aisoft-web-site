@@ -28,16 +28,6 @@ class HeroSection extends Component {
                         <div className="welcome-intro">
                         <h1 className="text-white">{this.state.data.heading}</h1>
                         <p className="text-white">{this.state.data.content}</p>
-                        {/* Store Buttons */}
-                        <div className="button-group store-buttons d-flex">
-                            <a href="https://play.google.com/store/apps/details?id=kg.ebilim&hl=ru">
-                            <img src={this.state.data.playImg} alt="" />
-                            </a>
-                            <a href="https://apps.apple.com/us/app/ebilim/id6480111161">
-                            <img src={this.state.data.appleImg} alt="" />
-                            </a>
-                        </div>
-                            <span className="d-inline-block text-white fw-3 font-italic mt-3">{this.state.data.headingSlug}</span>
                         </div>
                     </div>
                     <div className="col-12 col-md-5 col-lg-6">

@@ -25,13 +25,13 @@ class Header extends Component {
                                     </a>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li>
-                                            <a className="dropdown-item" href="/theme-four">AiDoc</a>
+                                            <a className="dropdown-item" href="/aidoc">AiDoc</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="/theme-two">EBilim</a>
+                                            <a className="dropdown-item" href="/ebilim">EBilim</a>
                                         </li>
                                         <li>
-                                            <a className="dropdown-item" href="/theme-three">AiTest</a>
+                                            <a className="dropdown-item" href="/aitest">AiTest</a>
                                         </li>
                                         <li>
                                             <a className="dropdown-item" href="/theme-four">Homepage-4</a>

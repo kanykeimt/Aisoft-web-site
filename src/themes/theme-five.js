@@ -26,7 +26,7 @@ class ThemeFive extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/logo-white.png"} />
+                    <Header imageData={"/img/LogoAisoft-white.png"} />
                     <HeroSection />
                     <FeatureSection />
                     <DiscoverSection />

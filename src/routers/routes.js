@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router,Switch, Route  } from 'react-router-dom';
 
 // importing all the themes
 import ThemeOne from "../themes/theme-one";
@@ -35,9 +35,9 @@ class MyRouts extends React.Component {
           <Switch>
             <Route exact path="/" component={ThemeOne} />
             <Route path="/theme-two" component={ThemeTwo} />
-            <Route path="/theme-three" component={ThemeThree} />
-            <Route path="/theme-four" component={ThemeFour} />
-            <Route path="/theme-five" component={ThemeFive} />
+            <Route path="/ebilim" component={ThemeThree} />
+            <Route path="/aidoc" component={ThemeFour} />
+            <Route path="/aitest" component={ThemeFive} />
             <Route path="/theme-six" component={ThemeSix} />
             <Route path="/blog-two-column" component={BlogTwoColumn} />
             <Route path="/blog-three-column" component={BlogThreeColumn} />

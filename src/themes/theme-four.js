@@ -30,17 +30,9 @@ class ThemeFour extends Component {
                     <HeroSection />
                     <BlogTwoColumn/>
                     <FeatureSection />
-                    <ServiceSection />
-                    <DiscoverSection />
                     <Work />
                     <ScreenshotSection />
                     <ReviewSection />
-                    <PricingSection />
-                    <FaqSection />
-                    <Download />
-                    <Subscribe />
-                    <ContactSection />
-                    <FooterSection />
                 </div>
             </div>
         );

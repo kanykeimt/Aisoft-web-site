@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
 const initData = {
-    heading: "Stay connected with your customers",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nihil tenetur minus quidem est deserunt molestias accusamus harum ullam tempore debitis et, expedita, repellat delectus aspernatur neque itaque qui quod.",
-    btnText: "Start free trail",
-    formHeading: "Get started for FREE!",
-    formText: "Fill all fields so we can get some info about you. We'll never send you spam",
-    formBtn: "Send Message",
-    formBtnText: "By signing up, you accept our",
-    formBtnText_2: "Terms",
-    formBtnText_3: "Privacy Policy"
+    heading: "AiTest",
+    content: "это современная система тестирования и оценки знаний, разработанная для автоматизации процессов проверки знаний в образовательных учреждениях и организациях. AiTest позволяет создавать разнообразные тесты и задания, автоматизировать процесс оценки и предоставляет подробную аналитику результатов. Ниже представлены основные характеристики и преимущества системы AiTest.",
+    heroThumb: "/img/img/aitest-1.png"
 }
 
 class HeroSection extends Component {
@@ -31,43 +25,10 @@ class HeroSection extends Component {
                         <div className="welcome-intro">
                         <h1 className="text-white">{this.state.data.heading}</h1>
                         <p className="text-white my-4">{this.state.data.content}</p>
-                        {/* Store Buttons */}
-                        <div className="button-group store-buttons d-flex">
-                            <a href="/contact-page" className="btn sApp-btn text-uppercase">{this.state.data.btnText}</a>
-                        </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-8 col-lg-5">
-                        {/* Contact Box */}
-                        <div className="contact-box bg-white text-center rounded p-4 p-sm-5 mt-5 mt-lg-0 shadow-lg">
-                        {/* Contact Form */}
-                        <form id="contact-form">
-                            <div className="contact-top">
-                            <h3 className="contact-title">{this.state.data.formHeading}</h3>
-                            <h5 className="text-secondary fw-3 py-3">{this.state.data.formText}</h5>
-                            </div>
-                            <div className="row">
-                            <div className="col-12">
-                                <div className="form-group">
-                                <input type="text" className="form-control" name="name" placeholder="Name" required="required" />
-                                </div>
-                                <div className="form-group">
-                                <input type="email" className="form-control" name="email" placeholder="Email" required="required" />
-                                </div>
-                                <div className="form-group">
-                                <input type="text" className="form-control" name="phone" placeholder="Phone" required="required" />
-                                </div>
-                            </div>
-                            <div className="col-12">
-                                <button className="btn btn-bordered w-100 mt-3 mt-sm-4" type="submit">{this.state.data.formBtn}</button>
-                                <div className="contact-bottom">
-                                <span className="d-inline-block mt-3">{this.state.data.formBtnText} <a href="/#">{this.state.data.formBtnText_2}</a> &amp; <a href="/#">{this.state.data.formBtnText_3}</a></span>
-                                </div>
-                            </div>
-                            </div>
-                        </form>
-                        <p className="form-message" />
-                        </div>
+                    <img src={this.state.data.heroThumb} alt="" />
                     </div>
                     </div>
                 </div>

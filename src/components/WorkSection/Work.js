@@ -1,24 +1,38 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/sapp/themeOneWorkSection";
 
 class Work extends Component {
     state = {
-        data: {},
-        workData: []
+        data: {
+            "heading": "Внедрение системы"
+        },
+        workData: [
+            {
+                "id": 1,
+                "image": "/img/work_thumb_1.png",
+                "title": "Установка программы",
+                "content": "Установка программы на сервер учебного заведения согласно техническим требованиям и настройкам."
+            },
+            {
+                "id": 2,
+                "image": "/img/img/work_thumb_2.png",
+                "title": "Обучение администратора",
+                "content": "Проведение обучения администратора по системе. Выдача ключей и доступа для управления системой."
+            },
+            {
+                "id": 3,
+                "image": "/img/img/work_thumb_3.png",
+                "title": "Выдача справочных материалов",
+                "content": "Предоставление подробных инструкций, руководств и ресурсов для пользователей системы."
+            },
+            {
+                "id": 4,
+                "image": "/img/work_thumb_3.png",
+                "title": "Техническая поддержка",
+                "content": "Обеспечение технической поддержки пользователям при возникновении вопросов, проблем или запросов. "
+            }
+        ]
     }
-    componentDidMount(){
-        axios.get(`${BASE_URL}`)
-            .then(res => {
-                this.setState({
-                    data: res.data,
-                    workData: res.data.workData
-                })
-                // console.log(this.state.data)
-            })
-        .catch(err => console.log(err))
-    }
+   
     render() {
         return (
             <section className="section work-area bg-overlay overflow-hidden ptb_100">
@@ -35,7 +49,7 @@ class Work extends Component {
                     <div className="row">
                         {this.state.workData.map((item, idx) => {
                             return(
-                                <div key={`w_${idx}`} className="col-12 col-md-4">
+                                <div key={`w_${idx}`} className="col-12 col-md-3">
                                 {/* Single Work */}
                                 <div className="single-work text-center p-3">
                                     {/* Work Icon */}

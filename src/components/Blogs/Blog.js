@@ -39,24 +39,6 @@ class Blog extends Component {
                 "image": "/img/img/aidocPos6.png",
                 "title": "Создание документа по шаблону",
                 "content": "Пошаговое создание документа по шаблону"
-              },
-              {
-                "id": 7,
-                "image": "/img/blog-7.jpg",
-                "title": "How to grow up your business",
-                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution."
-              },
-              {
-                "id": 8,
-                "image": "/img/blog-8.jpg",
-                "title": "Planing to manage your clients?",
-                "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor."
-              },
-              {
-                "id": 9,
-                "image": "/img/blog-9.jpg",
-                "title": "Make your successful business with sApp",
-                "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly."
               }
         ]
     }
@@ -85,26 +67,7 @@ class Blog extends Component {
                         );
                     })}
                 </div>
-                <div className="row">
-                    <div className="col-12">
-                        {/* Pagination */}
-                        <ul className="pagination justify-content-center py-4">
-                            <li className="disabled px-1">
-                                <a href="/#" aria-label="Previous">
-                                <i className="fas fa-arrow-left" />
-                                </a>
-                            </li>
-                            <li className="px-1"><a href="/#">1</a></li>
-                            <li className="active px-1"><a href="/#">2</a></li>
-                            <li className="px-1"><a href="/#">3</a></li>
-                            <li>
-                                <a href="/#" aria-label="Next">
-                                <i className="fas fa-arrow-right" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
         );
     }

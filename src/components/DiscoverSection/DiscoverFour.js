@@ -51,7 +51,7 @@ class DiscoverSection extends Component {
                     <div className="col-12 col-lg-6 order-1 order-lg-2">
                         {/* Discover Text */}
                         <div className="discover-text pt-4 pt-lg-0 px-0 px-lg-4">
-                        <h2 className="pb-4">{this.state.data.headingSix}</h2>
+                        <h2 className="pb-4" style={{ color: '#1ab394' }}>{this.state.data.headingSix}</h2>
                         {/* Service List */}
                         <ul className="service-list style-two">
                             {/* Single Service */}
@@ -65,7 +65,7 @@ class DiscoverSection extends Component {
                                 );
                             })}
                         </ul>
-                        <a href="/contact-page" className="btn sApp-btn mt-4">{this.state.data.buttonText}</a>
+                        <a href="/ebilim" className="btn sApp-btn mt-4">{this.state.data.buttonText}</a>
                         </div>
                     </div>
                     </div>

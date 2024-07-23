@@ -1,43 +1,39 @@
 import React, { Component } from 'react';
 
 const initData = {
-    preHeading: "Premium",
-    preHeadingspan: "Features",
-    heading: "Express Functionality",
-    headingText: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.",
-    headingTexttwo: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati."
+    heading: "Основные характеристики системы"
 }
 
 const data = [
     {
         image: "/img/featured_image_1.png",
-        title: "Fully functional",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        title: "Создание тестов",
+        content: "Возможность создания различных типов вопросов: множественный выбор, верно/неверно, открытые вопросы, эссе, практические задания. Настройка уровней сложности вопросов и адаптивных тестов. Поддержка мультимедийных вопросов с использованием изображений, аудио и видео."
     },
     {
-        image: "/img/featured_image_2.png",
-        title: "Live Chat",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        image: "/img/img/featured_image_2.png",
+        title: "Управление тестами ",
+        content: "Планирование и расписание тестов. Назначение тестов студентам или группам студентов. Ограничение по времени на выполнение теста. Управление доступом и автоматическое распределение тестов в зависимости от расписания и группы студентов."
     },
     {
-        image: "/img/featured_image_3.png",
-        title: "Secure Data",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        image: "/img/img/featured_image_6.png",
+        title: "Автоматическая проверка ",
+        content: "Мгновенная проверка и выставление оценок для вопросов с автоматической проверкой. Возможность настройки индивидуальных правил оценки. Интеграция с системами управления обучением (LMS) для автоматической записи результатов. "
     },
     {
         image: "/img/featured_image_4.png",
-        title: "Easy to Customize",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        title: "Поддержка разных форматов тестирования ",
+        content: "Онлайн-тестирование с доступом через веб-интерфейс. Поддержка мобильного тестирования через приложение."
     },
     {
-        image: "/img/featured_image_5.png",
-        title: "Responsive Design",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        image: "/img/img/featured_image_5.png",
+        title: "Аналитика и отчеты ",
+        content: "Подробные отчеты о результатах тестирования на индивидуальном и групповом уровне. Анализ успеваемости по отдельным темам и вопросам. Инструменты для мониторинга и прогнозирования успеваемости. "
     },
     {
-        image: "/img/featured_image_6.png",
-        title: "Help Documentation",
-        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+        image: "/img/featured_image_3.png",
+        title: "Безопасность и защита данных ",
+        content: "Защита данных студентов и результатов тестирования. Логирование всех действий и событий для аудита. "
     }
 ]
 
@@ -57,17 +53,10 @@ class FeatureSection extends Component {
             <section id="features" className="section features-area style-two overflow-hidden ptb_100">
                 <div className="container">
                     <div className="row">
-                    <div className="col-12 col-md-10 col-lg-6">
+                    <div className="col-12 col-md-10 col-lg-10">
                         {/* Section Heading */}
                         <div className="section-heading">
-                        <span className="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
-                            <i className="far fa-lightbulb text-primary mr-1" />
-                            <span className="text-primary">{this.state.initData.preHeading}</span>
-                            {this.state.initData.preHeadingspan}
-                        </span>
                         <h2>{this.state.initData.heading}</h2>
-                        <p className="d-none d-sm-block mt-4">{this.state.initData.headingText}</p>
-                        <p className="d-block d-sm-none mt-4">{this.state.initData.headingTexttwo}</p>
                         </div>
                     </div>
                     </div>

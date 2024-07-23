@@ -27,7 +27,6 @@ class BlogTwoColumn extends Component {
                             <Blog />
                         </div>
                     </section>
-                    <FooterSection />
                 </div>
             </div>
         );
