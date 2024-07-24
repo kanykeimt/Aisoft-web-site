@@ -10,6 +10,7 @@ import ThemeFive from "../themes/theme-five";
 import ThemeSix from "../themes/theme-six";
 import BlogTwoColumn from "../components/Blogs/BlogTwoColumn";
 import BlogThreeColumn from "../components/Blogs/BlogThreeColumn";
+import BlogThreeColumn_2 from "../components/Blogs/BlogThreeColumn-2";
 import BlogLeftSidebar from "../components/Blogs/BlogLeftSidebar";
 import BlogRightSidebar from "../components/Blogs/BlogRightSidebar";
 import BlogDetailsLeftSidebar from "../components/Blogs/BlogDetailsLeftSidebar";
@@ -38,9 +39,10 @@ class MyRouts extends React.Component {
             <Route path="/ebilim" component={ThemeThree} />
             <Route path="/aidoc" component={ThemeFour} />
             <Route path="/aitest" component={ThemeFive} />
-            <Route path="/theme-six" component={ThemeSix} />
+            <Route path="/partners" component={ThemeSix} />
             <Route path="/blog-two-column" component={BlogTwoColumn} />
-            <Route path="/blog-three-column" component={BlogThreeColumn} />
+            <Route path="/clients" component={BlogThreeColumn} />
+            <Route path="/clients-2" component={BlogThreeColumn_2} />
             <Route path="/blog-left-sidebar" component={BlogLeftSidebar} />
             <Route path="/blog-right-sidebar" component={BlogRightSidebar} />
             <Route path="/blog-details-left-sidebar" component={BlogDetailsLeftSidebar} />

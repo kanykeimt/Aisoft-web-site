@@ -1,25 +1,68 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server/themeOnePricingSection";
 
 class PricingSection extends Component {
     state = {
-        data: {},
+        data: {
+            "iconClass": "far fa-lightbulb text-primary mr-1",
+            "preHeading": "Flexible",
+            "preHeadingspan": "Pricing",
+            "heading": "Unlock Full Power Of sApp",
+            "headingText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.",
+            "headingTexttwo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.",
+            "text": "Not sure what to choose?",
+            "textLink": "Contact Us"
+        },
         pricingList: [],
-        pricingData: []
-    }
-    componentDidMount(){
-        axios.get(`${BASE_URL}`)
-            .then(res => {
-                this.setState({
-                    data: res.data,
-                    pricingList: res.data.pricingList,
-                    pricingData: res.data.pricingData
-                })
-                // console.log(this.state.data)
-            })
-        .catch(err => console.log(err))
+        pricingData: [
+            {
+                "id": 1,
+                "planImage": "/img/price_basic.png",
+                "planTitle": "Basic",
+                "priceSub": "$",
+                "planPrice": "49",
+                "planBtn": "Sign Up",
+                "li_1": "5GB Linux Web Space",
+                "li_2": "5 MySQL Databases",
+                "li_3": "24/7 Tech Support",
+                "li_4": "Daily Backups"
+            },
+            {
+                "id": 2,
+                "planImage": "/img/price_premium.png",
+                "planTitle": "Pro",
+                "priceSub": "$",
+                "planPrice": "149",
+                "planBtn": "Sign Up",
+                "li_1": "10GB Linux Web Space",
+                "li_2": "50 MySQL Databases",
+                "li_3": "Unlimited Email",
+                "li_4": "Daily Backups"
+            },
+            {
+                "id": 3,
+                "planImage": "/img/price_basic.png",
+                "planTitle": "Basic",
+                "priceSub": "$",
+                "planPrice": "49",
+                "planBtn": "Sign Up",
+                "li_1": "5GB Linux Web Space",
+                "li_2": "5 MySQL Databases",
+                "li_3": "24/7 Tech Support",
+                "li_4": "Daily Backups"
+            },
+            {
+                "id": 4,
+                "planImage": "/img/price_premium.png",
+                "planTitle": "Pro",
+                "priceSub": "$",
+                "planPrice": "149",
+                "planBtn": "Sign Up",
+                "li_1": "10GB Linux Web Space",
+                "li_2": "50 MySQL Databases",
+                "li_3": "Unlimited Email",
+                "li_4": "Daily Backups"
+            }
+        ]
     }
     render() {
         return (
@@ -35,12 +78,12 @@ class PricingSection extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center">
-                        <div className="col-12 col-sm-10 col-lg-8">
+                    <div className="row">
+                        <div className="col-20">
                             <div className="row price-plan-wrapper">
                                 {this.state.pricingData.map((item, idx) => {
-                                    return(
-                                        <div key={`p_${idx}`} className="col-12 col-md-6 mt-4">
+                                    return (
+                                        <div key={`p_${idx}`} className="col-20 col-md-4 mt-4">
                                             {/* Single Price Plan */}
                                             <div className="single-price-plan text-center p-5">
                                                 {/* Plan Thumb */}

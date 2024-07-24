@@ -28,7 +28,7 @@ class BlogDetails extends Component {
                 <article className="single-blog-details">
                     {/* Blog Thumb */}
                     <div className="blog-thumb">
-                        <a href="/#"><img src={this.state.data.image} alt="" /></a>
+                        <img src={this.state.data.image} alt="" />
                     </div>
                     {/* Blog Content */}
                     <div className="blog-content sApp-blog">

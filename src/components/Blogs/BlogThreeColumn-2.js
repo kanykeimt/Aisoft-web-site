@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 import Breadcrumb from './Breadcrumb';
-import Sidebar from './Sidebar';
-import BlogDetails from './BlogDetails';
-import FooterSection from '../FooterSection/FooterTwo';
+import Blog from './BlogTwo-2';
+import FooterSection from '../FooterSection/Footer';
 
-class BlogDetailsLeftSidebar extends Component {
+class BlogThreeColumn extends Component {
     render() {
         return (
             <div className="blog">
@@ -15,15 +14,11 @@ class BlogDetailsLeftSidebar extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/LogoAisoft-white.png"} />
-                    <Breadcrumb title="Внедрение системы" />
+                    <Header imageData={"/img/LogoAiSoft-white.png"} />
+                    <Breadcrumb title="Клиенты" />
                     <section id="blog" className="section blog-area ptb_100">
                         <div className="container">
-                            <div className="row">
-                                <div className="col-12">
-                                    <BlogDetails />
-                                </div>
-                            </div>
+                            <Blog />
                         </div>
                     </section>
                     <FooterSection />
@@ -33,4 +28,4 @@ class BlogDetailsLeftSidebar extends Component {
     }
 }
 
-export default BlogDetailsLeftSidebar;
+export default BlogThreeColumn;

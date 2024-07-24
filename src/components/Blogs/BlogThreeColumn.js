@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 import Breadcrumb from './Breadcrumb';
 import Blog from './BlogTwo';
-import FooterSection from '../FooterSection/FooterTwo';
+import FooterSection from '../FooterSection/Footer';
 
 class BlogThreeColumn extends Component {
     render() {
@@ -14,8 +14,8 @@ class BlogThreeColumn extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/logo-white.png"} />
-                    <Breadcrumb title="Blog - 3 Column" />
+                    <Header imageData={"/img/LogoAiSoft-white.png"} />
+                    <Breadcrumb title="Клиенты" />
                     <section id="blog" className="section blog-area ptb_100">
                         <div className="container">
                             <Blog />

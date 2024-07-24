@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection/HeroFive';
 import FeatureSection from '../components/Features/FeatureFive';
 import ServiceSection from '../components/ServiceSection/ServiceFive';
 import DiscoverSection from '../components/DiscoverSection/DiscoverFive';
+import DiscoverSection2 from '../components/DiscoverSection/DiscoverFive2';
 import Work from '../components/WorkSection/Work';
 import ScreenshotSection from '../components/ScreenshotSection/ScreenshotsTwo';
 import ReviewSection from '../components/ReviewSection/ReviewTwo';
@@ -30,16 +31,9 @@ class ThemeFive extends Component {
                     <HeroSection />
                     <FeatureSection />
                     <DiscoverSection />
-                    <ServiceSection />
+                    {/* <DiscoverSection2 /> */}
                     <Work />
-                    <ScreenshotSection />
                     <ReviewSection />
-                    <PricingSection />
-                    <FaqSection />
-                    <Team />
-                    <Download />
-                    <Subscribe />
-                    <ContactSection />
                     <FooterSection />
                 </div>
             </div>
