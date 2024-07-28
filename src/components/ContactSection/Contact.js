@@ -8,7 +8,7 @@ class ContactSection extends Component {
     state = {
         data: {
             "heading": "Контакты",
-            "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+            "content": "AiSoft - ведущий разработчик образовательных систем. Мы предлагаем современные решения для автоматизации учебных процессов."
         },
         iconList: [
             {
@@ -24,10 +24,31 @@ class ContactSection extends Component {
             {
                 "id": 3,
                 "iconClass": "fas fa-envelope",
-                "text": "exampledomain@domain.com"
+                "text": "exampledomain@domain.com",
+                "link" : ""
             }
         ]
     }
+
+    componentDidMount() {
+        window.ymaps.ready(() => {
+            const map = new window.ymaps.Map("yandex-map", {
+                center: [42.840377, 74.572120],
+                zoom: 14,
+                controls: ['zoomControl', 'fullscreenControl']
+            });
+
+            const placemark = new window.ymaps.Placemark([42.840678, 74.572413], {
+                balloonContent: '<strong>AiSoft</strong><br>Кыргызстан г. Бишкек ул. Анарбека Бакаева 197'
+            }, {
+                preset: 'islands#icon',
+                iconColor: '#7c4fe0'
+            });
+
+            map.geoObjects.add(placemark);
+        });
+    }
+
     render() {
         return (
             <section id="contact" className="contact-area bg-gray ptb_50">
@@ -49,7 +70,7 @@ class ContactSection extends Component {
                                     {this.state.iconList.map((item, idx) => {
                                         return (
                                             <li key={`ci_${idx}`} className="py-2">
-                                                <a className="media" href="/#">
+                                                <a className="media" href={item.link}>
                                                     <div className="social-icon mr-3">
                                                         <i className={item.iconClass} />
                                                     </div>
@@ -61,16 +82,8 @@ class ContactSection extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 pt-4 pt-md-0"  style={{ boxShadow: '0 4px 80px rgba(0, 0, 0, 0.1)' }}>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1462.7688709238937!2d74.57211956113387!3d42.84037745223591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skg!4v1722161294362!5m2!1sen!2skg"
-                                width="100%"
-                                height="100%"
-                                style={{ border: 0 }}
-                                allowFullScreen=""
-                                loading="lazy"
-                                referrerPolicy="no-referrer-when-downgrade"
-                            ></iframe>
+                        <div className="col-12 col-md-6 pt-4 pt-md-0" style={{ boxShadow: '0 4px 80px rgba(0, 0, 0, 0.1)' }}>
+                            <div id="yandex-map" style={{ width: '100%', height: '400px' }}></div>
                         </div>
                     </div>
                 </div>
