@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
-import Breadcrumb from './Breadcrumb';
+import Breadcrumb from './PrivacyPolicyHeader';
 import Blog from './BlogTwo';
 import FooterSection from '../FooterSection/FooterTwo';
 
