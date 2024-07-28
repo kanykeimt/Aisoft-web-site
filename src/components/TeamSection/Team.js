@@ -83,7 +83,7 @@ class Team extends Component {
     
     render() {
         return (
-            <section className="section team-area team-style-two overflow-hidden ptb_100">
+            <section className="section team-area team-style-two overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-12 col-md-10 col-lg-6">

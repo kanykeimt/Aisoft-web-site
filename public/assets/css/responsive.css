@@ -430,7 +430,7 @@
 @media (max-width: 991px) {
     .welcome-area,
     .inner .welcome-area {
-        height: 700px !important;
+        height: 500px !important;
     }
 
     .homepage-3 .welcome-area .subscribe-form {

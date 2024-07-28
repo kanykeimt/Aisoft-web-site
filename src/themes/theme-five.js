@@ -15,7 +15,7 @@ import Download from '../components/DownloadSection/Download';
 import Subscribe from '../components/SubscribeSection/Subscribe';
 import Team from '../components/TeamSection/Team';
 import ContactSection from '../components/ContactSection/Contact';
-import FooterSection from '../components/FooterSection/Footer';
+import FooterSection from '../components/FooterSection/FooterTwo';
 
 class ThemeFive extends Component {
     render() {

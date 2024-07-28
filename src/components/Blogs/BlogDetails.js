@@ -6,7 +6,23 @@ const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server-2/th
 class BlogDetails extends Component {
     state = {
         data: {},
-        iconList: [],
+        iconList: [
+            {
+                "id": 1,
+                "link": "bg-white facebook",
+                "iconClass": "fab fa-facebook-f"
+              },
+              {
+                "id": 2,
+                "link": "bg-white twitter",
+                "iconClass": "fab fa-twitter"
+              },
+              {
+                "id": 3,
+                "link": "bg-white google-plus",
+                "iconClass": "fab fa-google-plus-g"
+              }
+        ],
         commentsData: []
     }
     componentDidMount(){

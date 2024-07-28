@@ -3,63 +3,58 @@ import React, { Component } from 'react';
 class FeatureSection extends Component {
     state = {
         data: {
-            "heading": "What Makes sApp Different?",
             "headingFour": "Преимущества AiDoc",
-            // "headingText": "Laptop view",
-            // "headingTexttwo": "Phone view",
             "featureThumb": "/img/features_thumb.png"
         },
         featureDataTwo: [
             {
                 "id": 1,
                 "iconClass": "flaticon-tap",
-                "title": "Интуитивно понятный веб-интерфейс для быстрого освоения",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Удобство использования",
+                "text": "Интуитивно понятный интерфейс позволяет быстро освоить систему и начать работу."
             },
             {
                 "id": 2,
                 "iconClass": "flaticon-fingerprint",
-                "title": "Надежный механизм аутентификации",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Гибкость",
+                "text": "Система легко настраивается под специфические потребности и процессы организации. "
             },
             {
                 "id": 3,
                 "iconClass": "flaticon-notification",
-                "title": "Индивидуальные личные кабинеты для каждого пользователя.",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Эффективность",
+                "text": "Автоматизация рутинных задач освобождает время сотрудников для более важных и творческих задач."
             },
             {
                 "id": 4,
                 "iconClass": "flaticon-place",
-                "title": "Работа в любой точке мира с любого устройства",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Масштабируемость",
+                "text": "AiDoc подходит как для небольших компаний, так и для крупных предприятий с большим объемом документов."
             },
             {
                 "id": 5,
                 "iconClass": "flaticon-settings",
-                "title": "Интеграция с другими подсистемами",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Надежность",
+                "text": "Высокий уровень безопасности и защиты данных обеспечивает надежное хранение и доступ к документам."
             },
             {
                 "id": 6,
                 "iconClass": "flaticon-language",
-                "title": "Многоязычная поддержка (русский, кыргызский и английский языки)",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis culpa expedita dignissimos."
+                "title": "Поддержка и обновления",
+                "text": "Регулярные обновления системы и техническая поддержка обеспечивают стабильную и безопасную работу."
             }
         ]
     }
 
     render() {
         return (
-            <section id="features" className="section features-area bg-gray ptb_100">
+            <section id="features" className="section features-area bg-gray ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 col-lg-6">
                             {/* Section Heading */}
                             <div className="section-heading text-center">
                                 <h2>{this.state.data.headingFour}</h2>
-                                <p className="d-none d-sm-block mt-4">{this.state.data.headingText}</p>
-                                <p className="d-block d-sm-none mt-4">{this.state.data.headingTexttwo}</p>
                             </div>
                         </div>
                     </div>
@@ -76,7 +71,7 @@ class FeatureSection extends Component {
                                 {/* Icon Text */}
                                 <div className="icon-text">
                                     <h3 className="mb-2">{item.title}</h3>
-                                    {/* <p>{item.text}</p> */}
+                                    <p>{item.text}</p>
                                 </div>
                                 </div>
                             </div>

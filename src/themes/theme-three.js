@@ -11,7 +11,7 @@ import PricingSection from '../components/PricingSection/PricingTwo';
 import Download from '../components/DownloadSection/Download';
 import Subscribe from '../components/SubscribeSection/Subscribe';
 import ContactSection from '../components/ContactSection/Contact';
-import FooterSection from '../components/FooterSection/Footer';
+import FooterSection from '../components/FooterSection/FooterTwo';
 
 class ThemeThree extends Component {
     render() {

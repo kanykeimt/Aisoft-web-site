@@ -59,7 +59,7 @@ class BrandingSection extends Component {
     }
     render() {
         return (
-            <section className="branding-area ptb_100">
+            <section className="branding-area ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-10 col-lg-8">

@@ -39,7 +39,7 @@ class ScreenshotSection extends Component {
     }
     render() {
         return (
-            <section id="screenshots" className="section screenshots-area ptb_100">
+            <section id="screenshots" className="section screenshots-area ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-12 col-md-10 col-lg-7">

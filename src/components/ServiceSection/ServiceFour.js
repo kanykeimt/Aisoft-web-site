@@ -37,7 +37,7 @@ class ServiceSection extends Component {
     }
     render() {
         return (
-            <section className="section service-area overflow-hidden ptb_100">
+            <section className="section service-area overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
                     <div className="col-12 col-lg-6 order-2 order-lg-1">

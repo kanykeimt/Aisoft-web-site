@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroSix';
-import DiscoverSection from '../components/DiscoverSection/DiscoverPartner';
-import FooterSection from '../components/FooterSection/Footer';
+import DiscoverSection from '../components/DiscoverSection/AiDocChar';
+import FooterSection from '../components/FooterSection/FooterTwo';
+import BrandingSection from "../components/BrandingSection/Branding";
 
 class ThemeSix extends Component {
     render() {
@@ -17,7 +18,7 @@ class ThemeSix extends Component {
                 <div className="main">
                     <Header imageData={"/img/LogoAiSoft-white.png"} />
                     <HeroSection />
-                    <DiscoverSection />
+                    <BrandingSection />
                     <FooterSection />
                 </div>
             </div>

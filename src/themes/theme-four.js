@@ -4,16 +4,11 @@ import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroFour';
 import FeatureSection from '../components/Features/FeatureSix';
 import ServiceSection from '../components/ServiceSection/ServiceFour';
-import DiscoverSection from '../components/DiscoverSection/DiscoverFour';
+import AiDocChar from '../components/DiscoverSection/AiDocChar';
+import AiDocCharGray from '../components/DiscoverSection/AiDocCharGray';
+import AiDocChar2 from '../components/DiscoverSection/AiDocChar2';
 import Work from '../components/WorkSection/Work';
-import ScreenshotSection from '../components/ScreenshotSection/ScreenshotsTwo';
-import ReviewSection from '../components/ReviewSection/ReviewTwo';
-import PricingSection from '../components/PricingSection/PricingOne';
-import FaqSection from '../components/FaqSection/FaqOne';
-import Download from '../components/DownloadSection/Download';
-import Subscribe from '../components/SubscribeSection/Subscribe';
-import ContactSection from '../components/ContactSection/Contact';
-import FooterSection from '../components/FooterSection/Footer';
+import FooterSection from '../components/FooterSection/FooterTwo';
 import BlogTwoColumn from '../components/Blogs/BlogTwoColumn';
 
 class ThemeFour extends Component {
@@ -28,11 +23,13 @@ class ThemeFour extends Component {
                 <div className="main">
                     <Header imageData={"/img/LogoAisoft-white.png"} />
                     <HeroSection />
+                    <AiDocChar />
+                    <AiDocCharGray />
+                    <AiDocChar2 />
                     <BlogTwoColumn/>
                     <FeatureSection />
                     <Work />
-                    <ScreenshotSection />
-                    <ReviewSection />
+                    <FooterSection />
                 </div>
             </div>
         );

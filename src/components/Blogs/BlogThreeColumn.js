@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 import Breadcrumb from './Breadcrumb';
 import Blog from './BlogTwo';
-import FooterSection from '../FooterSection/Footer';
+import FooterSection from '../FooterSection/FooterTwo';
 
 class BlogThreeColumn extends Component {
     render() {
