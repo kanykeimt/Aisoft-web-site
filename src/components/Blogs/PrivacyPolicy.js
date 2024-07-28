@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 import Breadcrumb from './PrivacyPolicyHeader';
-import Sidebar from './Sidebar';
 import BlogDetails from './PrivacyPolicyDetails';
 import FooterSection from '../FooterSection/FooterTwo';
 

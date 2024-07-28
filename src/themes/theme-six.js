@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroSix';
-import DiscoverSection from '../components/DiscoverSection/AiDocChar';
 import FooterSection from '../components/FooterSection/FooterTwo';
 import BrandingSection from "../components/BrandingSection/Branding";
 

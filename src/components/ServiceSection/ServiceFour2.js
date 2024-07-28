@@ -40,7 +40,7 @@ class ServiceSection extends Component {
             <section className="section service-area overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row justify-content-center">
-                    <div className="col-12 col-lg-6 order-2 order-lg-1">
+                    <div className="col-12 col-lg-6 order-1 order-lg-1">
                         {/* Service Text */}
                         <div className="service-text pt-5 pt-lg-0 px-0 px-lg-4">
                         <h2 className=" mb-4" style={{ color: '#2dc3e8' }}>{this.state.data.headingFive}</h2>
@@ -60,7 +60,7 @@ class ServiceSection extends Component {
                         <a href="/aitest" className="btn sApp-btn mt-4">{this.state.data.buttonText}</a>
                         </div>
                     </div>
-                    <div className="col-12 col-md-8 col-lg-6 order-1 order-lg-2">
+                    <div className="col-12 col-md-8 col-lg-6 order-2 order-lg-2">
                         {/* Service Thumb */}
                         <div className="service-thumb mx-auto">
                         <img src={this.state.data.thumbFive} alt="" />

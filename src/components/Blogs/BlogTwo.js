@@ -208,49 +208,48 @@ class Blog extends Component {
     render() {
         return (
             <div>
-                <div className="row" style={{ display: 'flex' }}>
-                    {this.state.blogData.map((item, idx) => {
-                        return (
+                <div className="row" >
+                {this.state.blogData.map((item, idx) => {
+                        return(
                             <div key={`bth_${idx}`} className="col-12 col-md-6 col-lg-3">
                                 {/* Single Blog */}
                                 <div className="single-blog res-margin">
-                                    <style>
-                                        {`
-                @media (min-width: 991px) {
-                    .single-blog {
-                        height: 360px;
-                    }
-                    .blog-content {
-                        position: absolute;
-                        bottom: 20px;
-                        width: 100%;
-                    }
-                }
-                @media (min-width: 768px) and (max-width: 990.9px) {
-                    .single-blog {
-                        height: 450px;
-                    }
-                    .blog-content {
-                        position: absolute;
-                        bottom: 20px;
-                        width: 100%;
-                    }
-                }
-                
-            `}
-                                    </style>
                                     {/* Blog Thumb */}
                                     <div className="blog-thumb">
-                                        <img src={item.image} alt="" />
+                                    <style>
+                                        {`
+                                        @media (min-width: 991px) {
+                                            .single-blog {
+                                                height: 360px;
+                                            }
+                                            .blog-content {
+                                                position: absolute;
+                                                bottom: 20px;
+                                                width: 100%;
+                                            }
+                                        }
+                                        @media (min-width: 768px) and (max-width: 990.9px) {
+                                            .single-blog {
+                                                height: 410px;
+                                            }
+                                            .blog-content {
+                                                position: absolute;
+                                                bottom: 20px;
+                                                width: 100%;
+                                            }
+                                        }
+                
+                                    `}
+                                    </style>
+                                    <img src={item.image} alt="" />
+                                    </div>
+                                    {/* Blog Content */}
+                                    <div className="blog-content p-4">
+                                        {/* Blog Title */}
+                                        <h5 className="blog-title my-3">{item.title}</h5>
                                     </div>
                                 </div>
-                                {/* Blog Content */}
-                                <div className="blog-content p-4">
-                                    {/* Blog Title */}
-                                    <h5 className="blog-title my-3">{item.title}</h5>
-                                </div>
                             </div>
-
                         );
                     })}
                 </div>

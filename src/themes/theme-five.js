@@ -3,18 +3,8 @@ import React, { Component } from 'react';
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroFive';
 import FeatureSection from '../components/Features/FeatureFive';
-import ServiceSection from '../components/ServiceSection/ServiceFive';
 import DiscoverSection from '../components/DiscoverSection/DiscoverFive';
-import DiscoverSection2 from '../components/DiscoverSection/DiscoverFive2';
 import Work from '../components/WorkSection/Work';
-import ScreenshotSection from '../components/ScreenshotSection/ScreenshotsTwo';
-import ReviewSection from '../components/ReviewSection/ReviewTwo';
-import PricingSection from '../components/PricingSection/PricingOne';
-import FaqSection from '../components/FaqSection/FaqOne';
-import Download from '../components/DownloadSection/Download';
-import Subscribe from '../components/SubscribeSection/Subscribe';
-import Team from '../components/TeamSection/Team';
-import ContactSection from '../components/ContactSection/Contact';
 import FooterSection from '../components/FooterSection/FooterTwo';
 
 class ThemeFive extends Component {

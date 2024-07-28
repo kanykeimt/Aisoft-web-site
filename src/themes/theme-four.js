@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroFour';
 import FeatureSection from '../components/Features/FeatureSix';
-import ServiceSection from '../components/ServiceSection/ServiceFour';
 import AiDocChar from '../components/DiscoverSection/AiDocChar';
 import AiDocCharGray from '../components/DiscoverSection/AiDocCharGray';
 import AiDocChar2 from '../components/DiscoverSection/AiDocChar2';
