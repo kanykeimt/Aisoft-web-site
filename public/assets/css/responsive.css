@@ -433,6 +433,11 @@
         height: 500px !important;
     }
 
+    .welcome-area2,
+    .inner .welcome-area2 {
+        height: 1200px !important;
+    }
+
     .homepage-3 .welcome-area .subscribe-form {
         width: 100%;
     }

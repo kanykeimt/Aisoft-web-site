@@ -92,7 +92,7 @@ class ReviewSection extends Component {
                     <div className="row">
                         {this.state.data.map((item, idx) => {
                             const isFullTextVisible = this.state.showFullText[item.id];
-                            const truncatedText = item.text.substring(0, 120);
+                            const truncatedText = item.text.substring(0, 130);
 
                             return (
                                 <div key={`ro_${idx}`} className="col-12 col-md-6 col-lg-4 res-margin">

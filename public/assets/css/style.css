@@ -965,6 +965,10 @@ img {
     z-index: 1;
 }
 
+.welcome-area2 {
+    height: 700px;
+    z-index: 1;
+}
 .welcome-thumb {
     max-width: 300px;
 }

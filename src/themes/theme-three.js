@@ -3,14 +3,12 @@ import React, { Component } from 'react';
 import Header from '../components/HeaderSection/Header';
 import HeroSection from '../components/HeroSection/HeroThree';
 import FeatureSection from '../components/Features/FeatureThree';
-import ServiceSection from '../components/ServiceSection/ServiceThree';
-import DiscoverSection from '../components/DiscoverSection/DiscoverThree';
+import EbilimChar from '../components/ServiceSection/EbilimChar';
+import DiscoverSection from '../components/DiscoverSection/EbilimCharGray';
+import EbilimChar2 from '../components/ServiceSection/EbilimChar2';
 import Work from '../components/WorkSection/Work';
-import ReviewSection from '../components/ReviewSection/ReviewOne';
-import PricingSection from '../components/PricingSection/PricingTwo';
-import Download from '../components/DownloadSection/Download';
-import Subscribe from '../components/SubscribeSection/Subscribe';
-import ContactSection from '../components/ContactSection/Contact';
+import QrInfo from '../components/ServiceSection/ServiceOne';
+import EbilimMobile from '../components/DownloadSection/EbilimMobile';
 import FooterSection from '../components/FooterSection/FooterTwo';
 
 class ThemeThree extends Component {
@@ -26,15 +24,12 @@ class ThemeThree extends Component {
                     <Header imageData={"/img/LogoAisoft-white.png"} />
                     <HeroSection />
                     <FeatureSection />
-                    <ServiceSection />
+                    <EbilimChar />
                     <DiscoverSection />
+                    <EbilimChar2 />
+                    <EbilimMobile />
+                    <QrInfo />
                     <Work />
-                    
-                    <ReviewSection />
-                    <PricingSection />
-                    <Subscribe />
-                    <Download />
-                    <ContactSection />
                     <FooterSection />
                 </div>
             </div>

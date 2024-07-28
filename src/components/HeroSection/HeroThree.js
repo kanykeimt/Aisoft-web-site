@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 const initData = {
     heading: "EBilim",
-    headingTwo: "Информационная система управления учебным процессом вузов, колледжей и образовательных учреждений",
-    content: "",
+    content: "это современная Learning Management System (LMS), разработанная для оптимизации и упрощения образовательных процессов в учебных заведениях. Система EBILIM предлагает удобный и эффективный подход к обучению, предоставляя широкий набор инструментов для управления курсами, оценки знаний, интерактивного обучения, аналитики и автоматизации учебного процесса.",
     btnText: "Start free trail",
     iconClass: "fas fa-play",
     headingSlug: "EBILIM доступно на iPhone и всех устройствах Android.",
@@ -30,10 +29,9 @@ class HeroSection extends Component {
                         <div className="col-12 col-md-7 col-lg-6">
                             <div className="welcome-intro">
                                 <h1 className="text-white">{this.state.data.heading}</h1>
-                                <h3 className="text-white">{this.state.data.headingTwo}</h3>
                                 <p className="text-white my-4">{this.state.data.content}</p>
                                 {/* Subscribe Form */}
-                                <div className="button-group store-buttons d-flex">
+                                {/* <div className="button-group store-buttons d-flex">
                                     <a href="https://play.google.com/store/apps/details?id=kg.ebilim&hl=ru">
                                         <img src={this.state.data.playImg} alt="" />
                                     </a>
@@ -41,7 +39,7 @@ class HeroSection extends Component {
                                         <img src={this.state.data.appleImg} alt="" />
                                     </a>
                                 </div>
-                                <span className="d-inline-block text-white fw-3 font-italic mt-3">{this.state.data.headingSlug}</span>
+                                <span className="d-inline-block text-white fw-3 font-italic mt-3">{this.state.data.headingSlug}</span> */}
                             </div>
                         </div>
                         <div className="col-12 col-md-5 col-lg-6">

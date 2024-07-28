@@ -5,23 +5,37 @@ const BASE_URL = "https://my-json-server.typicode.com/themeland/sapp/themeOneSer
 
 class ServiceSection extends Component {
     state = {
-        data: {},
-        serviceData: []
-    }
-    componentDidMount(){
-        axios.get(`${BASE_URL}`)
-            .then(res => {
-                this.setState({
-                    data: res.data,
-                    serviceData: res.data.serviceData
-                })
-                // console.log(this.state.data)
-            })
-        .catch(err => console.log(err))
+        data: {
+            "heading": "Make your Device Manage Everything For you",
+            "thumbTwo": "/img/service_thumb_2.png",
+
+        },
+        serviceData: [
+            {
+                "id": 1,
+                "iconClass": "fab fa-buffer",
+                "text": "Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+              },
+              {
+                "id": 2,
+                "iconClass": "fas fa-brush",
+                "text": "Customizable design dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+              },
+              {
+                "id": 3,
+                "iconClass": "fas fa-burn",
+                "text": "Drop ipsum dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+              },
+              {
+                "id": 4,
+                "iconClass": "fas fa-cart-arrow-down",
+                "text": "Marketing chart dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam."
+              }
+        ]
     }
     render() {
         return (
-            <section className="section service-area overflow-hidden ptb_100">
+            <section className="section service-area overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row justify-content-between">
                     <div className="col-12 col-lg-6 order-2 order-lg-1">
@@ -46,7 +60,6 @@ class ServiceSection extends Component {
                                 );
                             })}
                         </ul>
-                        <a href="/contact-page" className="btn btn-bordered mt-4">{this.state.data.buttonText}</a>
                         </div>
                     </div>
                     <div className="col-12 col-lg-4 order-1 order-lg-2 d-none d-lg-block">
