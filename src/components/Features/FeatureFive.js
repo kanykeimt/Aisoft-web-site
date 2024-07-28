@@ -31,7 +31,7 @@ const data = [
         content: "Подробные отчеты о результатах тестирования на индивидуальном и групповом уровне. Анализ успеваемости по отдельным темам и вопросам. Инструменты для мониторинга и прогнозирования успеваемости. "
     },
     {
-        image: "/img/featured_image_3.png",
+        image: "/img/img/ebilimAdv2.png",
         title: "Безопасность и защита данных ",
         content: "Защита данных студентов и результатов тестирования. Логирование всех действий и событий для аудита. "
     }
@@ -50,7 +50,7 @@ class FeatureSection extends Component {
     }
     render() {
         return (
-            <section id="features" className="section features-area style-two overflow-hidden ptb_100">
+            <section id="features" className="section features-area style-two overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row">
                     <div className="col-12 col-md-10 col-lg-10">

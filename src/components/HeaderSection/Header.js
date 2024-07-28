@@ -36,19 +36,16 @@ class Header extends Component {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#features">Услуги</a>
-                                </li>
-                                <li className="nav-item">
                                     <a className="nav-link" href="/clients">Клиенты</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="/partners">Партнеры</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#pricing">Компания</a>
+                                    <a className="nav-link" href="/about">О нас</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link scroll" href="#contact">Контакты</a>
+                                    <a className="nav-link" href="/contact">Контакты</a>
                                 </li>
                             </ul>
                         </nav>

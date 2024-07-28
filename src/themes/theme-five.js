@@ -31,9 +31,7 @@ class ThemeFive extends Component {
                     <HeroSection />
                     <FeatureSection />
                     <DiscoverSection />
-                    {/* <DiscoverSection2 /> */}
                     <Work />
-                    <ReviewSection />
                     <FooterSection />
                 </div>
             </div>

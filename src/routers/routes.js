@@ -13,8 +13,9 @@ import BlogThreeColumn from "../components/Blogs/BlogThreeColumn";
 import BlogThreeColumn_2 from "../components/Blogs/BlogThreeColumn-2";
 import BlogLeftSidebar from "../components/Blogs/BlogLeftSidebar";
 import BlogRightSidebar from "../components/Blogs/BlogRightSidebar";
-import BlogDetailsLeftSidebar from "../components/Blogs/BlogDetailsLeftSidebar";
-import BlogDetailsRightSidebar from "../components/Blogs/BlogDetailsRightSidebar";
+import aboutUs from "../components/Blogs/aboutUs";
+import PrivacyPolicy from "../components/Blogs/PrivacyPolicy";
+import contact from "../components/Blogs/contact";
 import Reviews from "../components/ReviewSection/Reviews";
 import Pricing from "../components/PricingSection/Pricing";
 import DownloadPage from "../components/DownloadSection/EbilimMobile";
@@ -43,10 +44,11 @@ class MyRouts extends React.Component {
             <Route path="/blog-two-column" component={BlogTwoColumn} />
             <Route path="/clients" component={BlogThreeColumn} />
             <Route path="/clients-2" component={BlogThreeColumn_2} />
+            <Route path="/privacypolicy" component={PrivacyPolicy} />
             <Route path="/blog-left-sidebar" component={BlogLeftSidebar} />
             <Route path="/blog-right-sidebar" component={BlogRightSidebar} />
-            <Route path="/blog-details-left-sidebar" component={BlogDetailsLeftSidebar} />
-            <Route path="/blog-details-right-sidebar" component={BlogDetailsRightSidebar} />
+            <Route path="/about" component={aboutUs} />
+            <Route path="/contact" component={contact} />
             <Route path="/reviews" component={Reviews} />
             <Route path="/pricing" component={Pricing} />
             <Route path="/download-page" component={DownloadPage} />

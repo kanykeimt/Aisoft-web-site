@@ -36,7 +36,7 @@ class Team extends Component {
                 "id": 3,
                 "image": "/img/img/teamphoto3.png",
                 "title": "Адиля Кадырбекова",
-                "teamPost": "IT специалист",
+                "teamPost": "Проект менеджер",
                 "socialLinks": {
                     "facebook": "https://facebook.com/adiliak",
                     "telegram": "https://twitter.com/adiliak",
@@ -55,28 +55,6 @@ class Team extends Component {
                     "googlePlus": "https://plus.google.com/kanikeym",
                     "linkedin": "https://linkedin.com/in/kanikeym"
                 }
-            }
-        ],
-        teamIcons: [
-            {
-                "id": 1,
-                "iconClass": "fab fa-facebook-f",
-                "platform": "facebook"
-            },
-            {
-                "id": 2,
-                "iconClass": "fab fa-telegram",
-                "platform": "telegram"
-            },
-            {
-                "id": 3,
-                "iconClass": "fab fa-google-plus-g",
-                "platform": "googlePlus"
-            },
-            {
-                "id": 4,
-                "iconClass": "fab fa-linkedin-in",
-                "platform": "linkedin"
             }
         ]
     }
@@ -108,16 +86,6 @@ class Team extends Component {
                                         <div className="team-overlay radius-100">
                                         <h4 className="team-name text-white">{item.title}</h4>
                                         <h5 className="team-post text-white mt-2 mb-3">{item.teamPost}</h5>
-                                        {/* Team Icons */}
-                                        <div className="team-icons">
-                                            {this.state.teamIcons.map((icon, idx) => {
-                                                return(
-                                                    <a key={`ti_${idx}`} className="p-2" href={item.socialLinks[icon.platform]} target="_blank" rel="noopener noreferrer">
-                                                        <i className={icon.iconClass} />
-                                                    </a>
-                                                );
-                                            })}
-                                        </div>
                                         </div>
                                     </div>
                                     </div>

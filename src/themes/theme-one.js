@@ -23,7 +23,6 @@ class ThemeOne extends Component {
                 <div className="main">
                     <Header imageData={"/img/LogoAisoft-white.png"} />
                     <HeroSection />
-                    
                     <ServiceSection />
                     <DiscoverSection />
                     <ServiceSection2 />

@@ -41,7 +41,7 @@ class DiscoverSection extends Component {
     }
     render() {
         return (
-            <section className="section discover-area bg-gray overflow-hidden ptb_100">
+            <section className="section discover-area bg-gray overflow-hidden ptb_50">
                 <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-12 col-lg-6 order-2 order-lg-1">

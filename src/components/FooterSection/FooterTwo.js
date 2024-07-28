@@ -56,7 +56,7 @@ class FooterSection extends Component {
                                     })}
                                 </div>
                                 <ul className="d-flex flex-column flex-sm-row justify-content-center">
-                                    <li className="py-2 text-center"><a href="/#">Политика конфиденциальности</a></li>
+                                    <li className="py-2 text-center"><a href="/privacypolicy">Политика конфиденциальности</a></li>
                                 </ul>
                             </div>
                         </div>

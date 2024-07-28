@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
-import Breadcrumb from './Breadcrumb';
+import Breadcrumb from './PrivacyPolicyHeader';
 import Sidebar from './Sidebar';
-import BlogDetails from './BlogDetails';
+import BlogDetails from './PrivacyPolicyDetails';
 import FooterSection from '../FooterSection/FooterTwo';
 
 class BlogDetailsLeftSidebar extends Component {
@@ -16,8 +16,8 @@ class BlogDetailsLeftSidebar extends Component {
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
                     <Header imageData={"/img/LogoAisoft-white.png"} />
-                    <Breadcrumb title="Внедрение системы" />
-                    <section id="blog" className="section blog-area ptb_100">
+                    <Breadcrumb title="Политика конфиденциальности" />
+                    <section id="blog" className="section blog-area ptb_50">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
