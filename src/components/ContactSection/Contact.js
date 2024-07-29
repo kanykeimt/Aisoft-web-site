@@ -24,8 +24,8 @@ class ContactSection extends Component {
             {
                 "id": 3,
                 "iconClass": "fas fa-envelope",
-                "text": "exampledomain@domain.com",
-                "link" : ""
+                "text": "ebilim.kg@gmail.com",
+                "link" : "mailto:ebilim.kg@gmail.com"
             }
         ]
     }
