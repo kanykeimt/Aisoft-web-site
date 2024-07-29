@@ -5,7 +5,7 @@ import Header from '../HeaderSection/Header';
 class   DownloadPage extends Component {
     state = {
         initData: {
-            heading: "Оптимизируйте образовательный процесс с приложением EBILIM ",
+            heading: "Оптимизируйте образовательный процесс с мобильным приложением EBILIM ",
             content: "Для преподавателей:",
             content2: "Для студентов:",
             image: "/img/6_5_Display-1.png"
@@ -69,13 +69,13 @@ class   DownloadPage extends Component {
                                 <div className="col-12 col-md-7">
                                     <div className="welcome-intro">
                                         <h2 className="text-white">{this.state.initData.heading}</h2>
-                                        <p className="text-white mt-4">{this.state.initData.content} </p>
+                                        <h5 className="text-white mt-2">{this.state.initData.content} </h5>
                                         {/* Service List */}
                                         <ul className="service-list style-two">
                                             {/* Single Service */}
                                             {this.state.serviceData.map((item, idx) => {
                                                 return (
-                                                    <li key={`sth_${idx}`} className="single-service py-2 text-white">
+                                                    <li key={`sth_${idx}`} className="single-service py-1 text-white">
                                                         <div className="service-text ">
                                                             <p className="text-white">{item.text}</p>
                                                         </div>
@@ -83,13 +83,13 @@ class   DownloadPage extends Component {
                                                 );
                                             })}
                                         </ul>
-                                        <p className="text-white mt-4">{this.state.initData.content2}</p>
+                                        <h5 className="text-white mt-2">{this.state.initData.content2}</h5>
                                         {/* Service List */}
                                         <ul className="service-list style-two">
                                             {/* Single Service */}
                                             {this.state.serviceData2.map((item, idx) => {
                                                 return (
-                                                    <li key={`sth_${idx}`} className="single-service py-2 text-white">
+                                                    <li key={`sth_${idx}`} className="single-service py-1 text-white">
                                                         <div className="service-text ">
                                                             <p className="text-white">{item.text}</p>
                                                         </div>

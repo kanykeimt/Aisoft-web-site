@@ -3,7 +3,7 @@ class ServiceSection extends Component {
     state = {
         data: {
             "headingThree": "Автоматизация учебного процесса ",
-            "headingThree2": "Еще не написано"
+            "headingThree2": "Дополнительные функции"
         },
         serviceData: [
             {
@@ -41,17 +41,17 @@ class ServiceSection extends Component {
             {
                 "id": 1,
                 "iconClass": "fab fa-buffer",
-                "text": "Встроенная система тестирования и оценки знаний. "
+                "text": "Рейтинговая оценка качества деятельности профессорско-преподавательского состава на основе результатов их работы."
             },
             {
                 "id": 2,
                 "iconClass": "fas fa-brush",
-                "text": "Создание различных типов тестов и заданий: многовариантные вопросы, эссе, практические задания."
+                "text": "Централизованная панель управления для быстрого доступа ко всем функциям системы и уведомлениям."
             },
             {
                 "id": 3,
                 "iconClass": "fas fa-burn",
-                "text": "Автоматическая проверка и выставление оценок. "
+                "text": "Инструменты для создания и проведения опросов и анкетирования студентов и преподавателей для сбора обратной связи и оценки качества образовательного процесса."
             }
         ]
     }
@@ -83,7 +83,7 @@ class ServiceSection extends Component {
                         <div className="col-12 col-lg-6 order-1 order-lg-2 d-none d-md-block">
                             {/* Service Text */}
                             <div className="service-text pt-4 pt-lg-0 px-0 px-lg-4">
-                                <h3 className="mb-4" style={{color: 'red'}}>{this.state.data.headingThree2}</h3>
+                                <h3 className="mb-4">{this.state.data.headingThree2}</h3>
                                 {/* Service List */}
                                 <ul className="service-list style-two">
                                     {/* Single Service */}
