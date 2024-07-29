@@ -48,7 +48,7 @@ class FooterSection extends Component {
                                 <div className="social-icons d-flex justify-content-center">
                                     {this.state.iconList.map((item, idx) => {
                                         return(
-                                            <a key={`bdi_${idx}`} className={item.icon} href="{item.link}">
+                                            <a key={`bdi_${idx}`} className={item.icon} href={item.link}>
                                                 <i className={item.iconClass} />
                                                 <i className={item.iconClass} />
                                             </a>

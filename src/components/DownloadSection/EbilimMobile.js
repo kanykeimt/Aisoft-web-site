@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from '../HeaderSection/Header';
 
 
-class DownloadPage extends Component {
+class   DownloadPage extends Component {
     state = {
         initData: {
             heading: "Оптимизируйте образовательный процесс с приложением KelBil,EBILIM ",

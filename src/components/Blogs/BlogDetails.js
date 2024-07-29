@@ -15,21 +15,23 @@ class BlogDetails extends Component {
         iconList: [
             {
                 "id": 1,
-                "link": "bg-white facebook",
-                "iconClass": "fab fa-facebook-f"
-            },
-            {
+                "icon": "bg-white facebook",
+                "iconClass": "fab fa-facebook-f",
+                "link": "https://www.facebook.com/ebilimsoft"
+              },
+              {
                 "id": 2,
-                "link": "bg-white twitter",
-                "iconClass": "fab fa-twitter"
-            },
-            {
+                "icon": "bg-white twitter",
+                "iconClass": "fab fa-instagram",
+                "link": "https://www.instagram.com/aisoft.kg/"
+              },
+              {
                 "id": 3,
-                "link": "bg-white google-plus",
-                "iconClass": "fab fa-google-plus-g"
-            }
-        ],
-        commentsData: []
+                "icon": "bg-white google-plus",
+                "iconClass": "fab fa-youtube",
+                "link": "https://www.youtube.com/@e-Bilim"
+              }
+        ]
     }
     render() {
         return (
@@ -62,7 +64,7 @@ class BlogDetails extends Component {
                                 <div className="social-icons d-flex justify-content-center">
                                     {this.state.iconList.map((item, idx) => {
                                         return (
-                                            <a key={`bdi_${idx}`} className={item.link} href="/#">
+                                            <a key={`bdi_${idx}`} className={item.icon} href={item.link}>
                                                 <i className={item.iconClass} />
                                                 <i className={item.iconClass} />
                                             </a>
