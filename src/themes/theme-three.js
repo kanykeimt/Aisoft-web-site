@@ -21,7 +21,7 @@ class ThemeThree extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/LogoAisoft-white.png"} />
+                    <Header imageData={"/img/LogoAiSoft-white.png"} />
                     <HeroSection />
                     <FeatureSection />
                     <EbilimChar />

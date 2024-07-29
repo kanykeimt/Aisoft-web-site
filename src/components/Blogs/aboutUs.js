@@ -14,7 +14,7 @@ class BlogDetailsLeftSidebar extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/LogoAisoft-white.png"} />
+                    <Header imageData={"/img/LogoAiSoft-white.png"} />
                     <Breadcrumb title="О компании" />
                     <section id="blog" className="section blog-area ptb_50">
                         <div className="container">

@@ -6,8 +6,8 @@ class Header extends Component {
             <header className="navbar navbar-sticky navbar-expand-lg navbar-dark">
                 <div className="container position-relative">
                     <a className="navbar-brand" href="/">
-                        <img className="navbar-brand-regular" src="/img/LogoAisoft-white.png" alt="brand-logo" />
-                        <img className="navbar-brand-sticky" src="/img/LogoAisoft.png" alt="sticky brand-logo" />
+                        <img className="navbar-brand-regular" src={this.props.imageData} alt="brand-logo" />
+                        <img className="navbar-brand-sticky" src="/img/LogoAiSoft.png" alt="sticky brand-logo" />
                     </a>
                     <button className="navbar-toggler d-lg-none" type="button" data-toggle="navbarToggler" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
