@@ -21,7 +21,7 @@ class ThemeOne extends Component {
                 </div>
                 {/*====== Scroll To Top Area End ======*/}
                 <div className="main">
-                    <Header imageData={"/img/LogoAisoft-white.png"} />
+                    <Header />
                     <HeroSection />
                     <ServiceSection />
                     <DiscoverSection />
