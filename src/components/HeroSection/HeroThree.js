@@ -29,7 +29,18 @@ class HeroSection extends Component {
                         <div className="col-12 col-md-7 col-lg-6">
                             <div className="welcome-intro">
                                 <h1 className="text-white">{this.state.data.heading}</h1>
-                                <p className="text-white my-4">{this.state.data.content}</p>
+                                <p className="text-white ">{this.state.data.content}</p>
+                                <style>
+                                    {`
+                                    @media (min-width: 768px) {
+    .welcome-intro h1,
+    .welcome-intro p {
+        margin-left: 50px; /* Adjust this value as needed for mobile */
+    }
+}
+                                    `}
+                                </style>
+                                <></>
                                 {/* Subscribe Form */}
                                 {/* <div className="button-group store-buttons d-flex">
                                     <a href="https://play.google.com/store/apps/details?id=kg.ebilim&hl=ru">

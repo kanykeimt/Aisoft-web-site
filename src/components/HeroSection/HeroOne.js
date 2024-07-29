@@ -26,7 +26,7 @@ class HeroSection extends Component {
                     {/* Welcome Intro Start */}
                     <div className="col-12 col-md-7 col-lg-6">
                         <div className="welcome-intro">
-                        <h1 className="text-white">{this.state.data.heading}</h1>
+                        <h1 className="text-white my-3">{this.state.data.heading}</h1>
                         <p className="text-white">{this.state.data.content}</p>
                         </div>
                     </div>
