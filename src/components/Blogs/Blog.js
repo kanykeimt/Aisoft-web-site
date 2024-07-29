@@ -38,7 +38,7 @@ class Blog extends Component {
                 "id": 6,
                 "image": "/img/img/aidocPos6.png",
                 "title": "Создание документа по шаблону",
-                "content": "Пошаговое создание документа по шаблону"
+                "content": "Пошаговое создание документа по шаблону."
               }
         ]
     }
