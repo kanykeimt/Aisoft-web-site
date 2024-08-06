@@ -4,7 +4,7 @@ import Breadcrumb from './PrivacyPolicyHeader';
 import BlogDetails from './PrivacyPolicyDetails';
 import FooterSection from '../FooterSection/FooterTwo';
 
-class BlogDetailsLeftSidebar extends Component {
+class PrivacyPolicy extends Component {
     render() {
         return (
             <div className="blog">
@@ -32,4 +32,4 @@ class BlogDetailsLeftSidebar extends Component {
     }
 }
 
-export default BlogDetailsLeftSidebar;
+export default PrivacyPolicy;

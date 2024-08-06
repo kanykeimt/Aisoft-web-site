@@ -5,7 +5,7 @@ import HeroSection from '../components/HeroSection/HeroSix';
 import FooterSection from '../components/FooterSection/FooterTwo';
 import BrandingSection from "../components/BrandingSection/Branding";
 
-class ThemeSix extends Component {
+class Partners extends Component {
     render() {
         return (
             <div className="homepage-6">
@@ -25,4 +25,4 @@ class ThemeSix extends Component {
     }
 }
 
-export default ThemeSix;
+export default Partners;

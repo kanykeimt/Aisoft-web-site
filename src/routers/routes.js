@@ -8,9 +8,9 @@ import AiDoc from "../themes/AiDoc";
 import AiTest from "../themes/AiTest";
 import Partners from "../themes/Partners";
 import Clients from "../components/Blogs/Clients";
-import aboutUs from "../components/Blogs/AboutUs";
+import AboutUs from "../components/Blogs/AboutUs";
 import PrivacyPolicy from "../components/Blogs/PrivacyPolicy";
-import contact from "../components/Blogs/Contact";
+import Contact from "../components/Blogs/Contact1";
 
 class MyRouts extends React.Component {
   render() {
@@ -25,8 +25,8 @@ class MyRouts extends React.Component {
             <Route path="/partners" component={Partners} />
             <Route path="/clients" component={Clients} />
             <Route path="/privacypolicy" component={PrivacyPolicy} />
-            <Route path="/about" component={aboutUs} />
-            <Route path="/contact" component={contact} />
+            <Route path="/about" component={AboutUs} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </Router>
       </div>

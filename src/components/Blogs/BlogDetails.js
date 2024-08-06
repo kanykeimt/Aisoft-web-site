@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server-2/themeOneBlogDetails";
 
 class BlogDetails extends Component {
     state = {

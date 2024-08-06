@@ -7,7 +7,7 @@ import DiscoverSection from '../components/DiscoverSection/DiscoverFive';
 import Work from '../components/WorkSection/Work';
 import FooterSection from '../components/FooterSection/FooterTwo';
 
-class ThemeFive extends Component {
+class AiTest extends Component {
     render() {
         return (
             <div className="homepage-5">
@@ -29,4 +29,4 @@ class ThemeFive extends Component {
     }
 }
 
-export default ThemeFive;
+export default AiTest;

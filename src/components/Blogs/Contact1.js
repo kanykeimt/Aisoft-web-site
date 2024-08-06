@@ -4,7 +4,7 @@ import Breadcrumb from './Breadcrumb';
 import Contact from '../ContactSection/Contact'
 import FooterSection from '../FooterSection/FooterTwo';
 
-class BlogDetailsRightSidebar extends Component {
+class Contact1 extends Component {
     render() {
         return (
             <div className="blog blog-right">
@@ -24,4 +24,4 @@ class BlogDetailsRightSidebar extends Component {
     }
 }
 
-export default BlogDetailsRightSidebar;
+export default Contact1;

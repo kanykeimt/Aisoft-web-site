@@ -6,7 +6,7 @@ const initData = {
     headingSlug: "EBILIM доступно на iPhone, iPad и всех устройствах Android.",
     playImg: "/img/google-play.png",
     appleImg: "/img/app-store.png",
-    heroThumb: "/img/img/4.png"
+    heroThumb: "/img/6_5_Display-1.png"
 }
 
 class HeroSection extends Component {

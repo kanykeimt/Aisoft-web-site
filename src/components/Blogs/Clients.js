@@ -5,7 +5,7 @@ import Breadcrumb from './PrivacyPolicyHeader';
 import Blog from './BlogTwo';
 import FooterSection from '../FooterSection/FooterTwo';
 
-class BlogThreeColumn extends Component {
+class Clients extends Component {
     render() {
         return (
             <div className="blog">
@@ -29,4 +29,4 @@ class BlogThreeColumn extends Component {
     }
 }
 
-export default BlogThreeColumn;
+export default Clients;

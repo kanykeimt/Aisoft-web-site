@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-import ContactForm from './ContactForm';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/json-server-1/themeOneContactSection";
 
 class ContactSection extends Component {
     state = {

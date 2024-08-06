@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Blog from './Blog';
-import FooterSection from '../FooterSection/FooterTwo';
 
 class BlogTwoColumn extends Component {
     render() {

@@ -4,7 +4,7 @@ import Breadcrumb from './Breadcrumb';
 import BlogDetails from './BlogDetails';
 import FooterSection from '../FooterSection/FooterTwo';
 
-class BlogDetailsLeftSidebar extends Component {
+class AboutUs extends Component {
     render() {
         return (
             <div className="blog">
@@ -32,4 +32,4 @@ class BlogDetailsLeftSidebar extends Component {
     }
 }
 
-export default BlogDetailsLeftSidebar;
+export default AboutUs;

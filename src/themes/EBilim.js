@@ -11,7 +11,7 @@ import QrInfo from '../components/ServiceSection/ServiceOne';
 import EbilimMobile from '../components/DownloadSection/EbilimMobile';
 import FooterSection from '../components/FooterSection/FooterTwo';
 
-class ThemeThree extends Component {
+class EBilim extends Component {
     render() {
         return (
             <div className="homepage-3">
@@ -37,4 +37,4 @@ class ThemeThree extends Component {
     }
 }
 
-export default ThemeThree;
+export default EBilim;

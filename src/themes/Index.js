@@ -11,7 +11,7 @@ import ReviewSection from '../components/ReviewSection/ReviewOne';
 import Team from '../components/TeamSection/Team';
 import FooterSection from '../components/FooterSection/FooterTwo';
 
-class ThemeOne extends Component {
+class Index extends Component {
     render() {
         return (
             <div>
@@ -37,4 +37,4 @@ class ThemeOne extends Component {
     }
 }
 
-export default ThemeOne;
+export default Index;

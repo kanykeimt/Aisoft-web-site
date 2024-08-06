@@ -10,7 +10,7 @@ import Work from '../components/WorkSection/Work';
 import FooterSection from '../components/FooterSection/FooterTwo';
 import BlogTwoColumn from '../components/Blogs/BlogTwoColumn';
 
-class ThemeFour extends Component {
+class AiDoc extends Component {
     render() {
         return (
             <div className="homepage-4">
@@ -35,4 +35,4 @@ class ThemeFour extends Component {
     }
 }
 
-export default ThemeFour;
+export default AiDoc;

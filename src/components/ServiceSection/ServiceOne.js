@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-const BASE_URL = "https://my-json-server.typicode.com/themeland/sapp/themeOneServiceSection";
 
 class ServiceSection extends Component {
     state = {
